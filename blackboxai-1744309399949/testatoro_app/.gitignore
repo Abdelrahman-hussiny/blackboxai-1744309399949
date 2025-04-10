@@ -1,0 +1,98 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.classpath
+.project
+.settings/
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS build related
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+*.xcworkspace/
+!ios/Runner.xcworkspace/
+xcuserdata/
+
+# iOS CocoaPods
+/ios/Pods/
+/ios/Podfile.lock
+
+# Do NOT ignore these important files
+!ios/Runner.xcodeproj/
+!ios/Runner.xcworkspace/
+!ios/Podfile
+!ios/Runner/Info.plist
+!ios/Runner/AppDelegate.swift
+!ios/Runner/Base.lproj/
+!ios/Runner/Assets.xcassets/
+
+# Android related
+/android/gradle-wrapper.jar
+/android/captures/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/GeneratedPluginRegistrant.java
+/android/.gradle
+/android/gradle/
+/android/key.properties
+
+# Do NOT ignore these important Android files
+!android/app/src/
+!android/app/build.gradle
+!android/build.gradle
+!android/settings.gradle
+!android/gradle.properties
+
+# Codemagic
+/codemagic.yaml
+
+# Exceptions to above rules
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
